@@ -1,0 +1,383 @@
+TKJ@DESKTOP-9I23BL0 MINGW64 ~ (master)
+$ mkdir iman
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~ (master)
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+basic
+Cisco\ Packet\ Tracer\ 6.0.1
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+git
+git-basic
+iman
+IntelGraphicsProfiles
+Links
+Local\ Settings
+Music
+My\ Documents
+NetHood
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{baf88c2c-bb57-11ec-b0cc-d07e358d079c}.TM.blf
+NTUSER.DAT{baf88c2c-bb57-11ec-b0cc-d07e358d079c}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{baf88c2c-bb57-11ec-b0cc-d07e358d079c}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+OneDrive
+Pictures
+PrintHood
+README.md
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~ (master)
+$ cd git-basic
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic (master)
+$ pwd
+/c/Users/TKJ/git-basic
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic (master)
+$ mkdir iman
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic (master)
+$ cd iman
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ pwd
+/c/Users/TKJ/git-basic/iman
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ touch README.md
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   README.md
+
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git add .
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git log
+commit 085b17a9541e7c2cd4c181ff1d67f618d8eb1b66 (HEAD -> master)
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 13:18:41 2022 +0700
+
+    removing firts.txt
+
+commit 41114c428c4e4af8e8d5a291314b14ad648ce95b
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 11:56:31 2022 +0700
+
+    adding second.txt
+
+commit 0f832bd9b0b30eb7a3e9706adda471a8d464db27
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 11:53:26 2022 +0700
+
+    adding first.txt
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git commit -m "halo perkenalkan aku halaman utama"
+[master 2bc734a] halo perkenalkan aku halaman utama
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 iman/README.md
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git log
+commit 2bc734a7d7dee4fe00212334528da5f084138270 (HEAD -> master)
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 14:18:58 2022 +0700
+
+    halo perkenalkan aku halaman utama
+
+commit 085b17a9541e7c2cd4c181ff1d67f618d8eb1b66
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 13:18:41 2022 +0700
+
+    removing firts.txt
+
+commit 41114c428c4e4af8e8d5a291314b14ad648ce95b
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 11:56:31 2022 +0700
+
+    adding second.txt
+
+commit 0f832bd9b0b30eb7a3e9706adda471a8d464db27
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 11:53:26 2022 +0700
+
+    adding first.txt
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git init
+Initialized empty Git repository in C:/Users/TKJ/git-basic/iman/.git/
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ echo halo perkenalkan aku halaman utama >README.md
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git commit -m "first commit"
+[master (root-commit) 81e1ad4] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ cat README.md
+halo perkenalkan aku halaman utama
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ cat README.md
+halo perkenakan aku halaman utama
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ cat README.md
+hello world
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git checkout README.md
+Updated 1 path from the index
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ cat README.md
+halo perkenalkan aku halaman utama
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git branch cv
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git branch
+  cv
+* master
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git checkout cv
+Switched to branch 'cv'
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git branch
+* cv
+  master
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ touch cv.txt
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ echo ini adalah file CV >cv.txt
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ cat cv.txt
+ini adalah file CV
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git status
+On branch cv
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cv.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git commit -m "initial CV"
+[cv e6fa5cc] initial CV
+ 1 file changed, 1 insertion(+)
+ create mode 100644 cv.txt
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git commit -m "seblak corporation"
+[cv 333f7be] seblak corporation
+ 1 file changed, 1 insertion(+)
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git add .
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git commit -m "zulfa group"
+On branch cv
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   cv.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git status
+On branch cv
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   cv.txt
+
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        cv.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git commit -m "zulfa group"
+[cv 54da692] zulfa group
+ 1 file changed, 2 insertions(+)
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git commit -m "indomie"
+On branch cv
+nothing to commit, working tree clean
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (cv)
+$ git checkout master
+Switched to branch 'master'
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git branch
+  cv
+* master
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git add .
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ cat README.md
+Halo perkenalkan aku halaman utama
+Ini adalah update pertama pada branch master
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git commit -m "update master pertama"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git add .
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git log
+commit 81e1ad46f0d928a9aa318f66f905074cc68d5bd9 (HEAD -> master)
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 14:38:00 2022 +0700
+
+    first commit
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git checkout master
+Already on 'master'
+M       README.md
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git marge cv
+git: 'marge' is not a git command. See 'git --help'.
+
+The most similar command is
+        merge
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git merge cv
+Updating 81e1ad4..54da692
+Fast-forward
+ cv.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 cv.txt
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ git log
+commit 54da69254a86cc5ac0048e8168d01ee9d7bbf32c (HEAD -> master, cv)
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 15:06:47 2022 +0700
+
+    zulfa group
+
+commit 333f7be2ef866fddf3670fbfcc5cc407d95a7e56
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 14:56:54 2022 +0700
+
+    seblak corporation
+
+commit e6fa5ccf14749a34b636cbf4a8956974dcd5a5c4
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 14:51:50 2022 +0700
+
+    initial CV
+
+commit 81e1ad46f0d928a9aa318f66f905074cc68d5bd9
+Author: imanzulfa27 <imanzulfa27@gmail.com>
+Date:   Fri Jul 1 14:38:00 2022 +0700
+
+    first commit
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$ dir
+cv.txt  README.md
+
+TKJ@DESKTOP-9I23BL0 MINGW64 ~/git-basic/iman (master)
+$
